@@ -1,10 +1,11 @@
-larguraP = int(input('Quantos metros de largura tem a parede?: '))
-alturaP = int(input('Quantos metros de altura tem a parede?: '))
+larguraP = float(input('Qual a largura da parede?: '))
+alturaP = float(input('Qual a altura da parede?: '))
 
-area = larguraP * alturaP
+área = larguraP * alturaP
 
-litroTintaPorMetro = 2**2
+tinta = área / 2
 
-litroPorMetro = area / litroTintaPorMetro
+litroPorMetro = área / umLitroTintaPinta
 
-print('A parede tem {} metros quadrados, você usara {} litros de tinta para pintura total'.format(area, litroPorMetro))
+print('A parede tem a dimenção {}x{} e sua área é de {}m²'.format(larguraP, alturaP, área))
+print('Para pintar toda a parede você precisara de {}l de tinta'.format(tinta))

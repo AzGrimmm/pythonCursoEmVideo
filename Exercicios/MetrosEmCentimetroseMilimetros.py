@@ -1,7 +1,15 @@
-n = int(input('Digite o valor em metros: '))
+metros = int(input('Digite o valor em metros: '))
 
-c = n * 100
+quilômetro = metros / 1000
 
-m = n * 1000
+hectômetro = metros / 100
 
-print('{} metros são {} centimetros e {} milimetros'.format(n, c, m))
+decâmetro = metros / 10
+
+decímetro = metros * 10
+
+centimetros = metros * 100
+
+milimetros = metros * 1000
+
+print('{} metros são: {}mn, {}cm, {}dm, {}dam, {}hm, {}km '.format(metros, milimetros, centimetros, decímetro, decâmetro, hectômetro, quilômetro))
