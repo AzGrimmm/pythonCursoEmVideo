@@ -29,3 +29,5 @@ print(split)
 join = '-'.join(split)
 
 print(join)
+
+ordemAlfabética = sorted(lista) 
