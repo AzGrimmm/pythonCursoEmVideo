@@ -7,7 +7,7 @@ while True:
         preço = float(input('Preço: R$'))
         total += preço
         if preço > 1000:
-            cont1000 +=1
+            cont1000 += 1
         if maisbarato == 0:
             maisbarato = preço
         if preço < maisbarato:
